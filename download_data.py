@@ -10,7 +10,7 @@ import pyautogui
 options = Options()
 navegador = webdriver.Chrome(options=options)
 
-navegador.get("https://user:password@isip.piconepress.com/projects/nedc/data/tuh_eeg/tuh_eeg_abnormal/v3.0.1/edf/train/normal/01_tcp_ar/")
+navegador.get("https://nedc-tuh-eeg:RLYF8ZhBMZwNnsYA8FsP@isip.piconepress.com/projects/nedc/data/tuh_eeg/tuh_eeg_abnormal/v3.0.1/edf/eval/abnormal/01_tcp_ar/")
 
 links = navegador.find_elements(By.TAG_NAME, "a")
 
@@ -26,9 +26,9 @@ for link in links[5:-1]:
     pyautogui.press("down")
     # sleep(0.3)
     pyautogui.press("enter")
-    sleep(1.5)
+    sleep(1.2)
     pyautogui.press("enter")
-    sleep(0.7)
+    sleep(0.3)
 
 
 
