@@ -3,3 +3,5 @@ venv
 env
 
 Dataset
+
+__pycache__/
