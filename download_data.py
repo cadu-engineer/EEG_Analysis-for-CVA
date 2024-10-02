@@ -10,7 +10,7 @@ import pyautogui
 options = Options()
 navegador = webdriver.Chrome(options=options)
 
-navegador.get("https://nedc-tuh-eeg:RLYF8ZhBMZwNnsYA8FsP@isip.piconepress.com/projects/nedc/data/tuh_eeg/tuh_eeg_abnormal/v3.0.1/edf/eval/abnormal/01_tcp_ar/")
+navegador.get("https://nedc-tuh-eeg:RLYF8ZhBMZwNnsYA8FsP@isip.piconepress.com/projects/nedc/data/tuh_eeg/tuh_eeg_abnormal/v3.0.1/edf/train/abnormal/01_tcp_ar/")
 
 links = navegador.find_elements(By.TAG_NAME, "a")
 
